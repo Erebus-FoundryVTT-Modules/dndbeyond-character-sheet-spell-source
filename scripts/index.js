@@ -1,4 +1,8 @@
 Hooks.on("renderActorSheet", (actor, html) => {
+  if (!html.hasClass("dndbcs")) {
+    return;
+  }
+
   const headers = html.find(".spellbook .inventory-header .spell-school");
   for (const header of headers) {
     const $sourceClass = $(`<div class="source-class">Source Class</div>`);
