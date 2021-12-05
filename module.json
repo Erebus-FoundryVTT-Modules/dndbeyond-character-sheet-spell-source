@@ -17,7 +17,7 @@
     }
   ],
   "scripts": ["./scripts/index.js"],
-  "url": "https://github.com/Erebus-FoundryVTT-Modules/dndbeyond-sheet-spell-source",
-  "manifest": "https://raw.githubusercontent.com/Erebus-FoundryVTT-Modules/dndbeyond-sheet-spell-source/main/module.json",
-  "download": "https://github.com/Erebus-FoundryVTT-Modules/dndbeyond-sheet-spell-source/archive/refs/heads/main.zip"
+  "url": "https://github.com/Erebus-FoundryVTT-Modules/dndbeyond-character-sheet-spell-source",
+  "manifest": "https://raw.githubusercontent.com/Erebus-FoundryVTT-Modules/dndbeyond-character-sheet-spell-source/main/module.json",
+  "download": "https://github.com/Erebus-FoundryVTT-Modules/dndbeyond-character-sheet-spell-source/archive/refs/heads/main.zip"
 }
