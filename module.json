@@ -1,0 +1,23 @@
+{
+  "name": "dndbeyond-character-sheet-spell-source",
+  "title": "DNDBeyond Character Sheet Spell Source Column",
+  "description": "Injects a spell source column into the DNDBeyond Character Sheet for use by the Spellbook Assistant Manager module",
+  "version": "1.0.0",
+  "author": "blargent",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.8.9",
+  "dependencies": [
+    {
+      "name": "dndbeyond-character-sheet",
+      "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-dndbeyond-character-sheet/master/module.json"
+    },
+    {
+      "name": "spellbook-assistant-manager",
+      "manifest": "https://github.com/kandashi/spellbook-assistant-manager/releases/latest/download/module.json"
+    }
+  ],
+  "scripts": ["./scripts/index.js"],
+  "url": "https://github.com/Erebus-FoundryVTT-Modules/dndbeyond-sheet-spell-source",
+  "manifest": "https://raw.githubusercontent.com/Erebus-FoundryVTT-Modules/dndbeyond-sheet-spell-source/main/module.json",
+  "download": "https://github.com/Erebus-FoundryVTT-Modules/dndbeyond-sheet-spell-source/archive/refs/heads/main.zip"
+}
